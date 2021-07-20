@@ -1,0 +1,89 @@
+html,
+.App{
+  height:1024px;
+  margin:auto;
+  width:1366px;
+}
+
+.textbox{
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px rgb(206, 202, 202) ;
+  display:block;
+  font-family: Poppins;
+  height:597px;
+  margin:auto;
+  padding-left:70px;
+  padding-right:70px;
+  position:relative;
+  top:100px;
+  width:586px;
+}
+.textbox .close{
+  background-color: white;
+  border-style: none;
+  opacity: .5;
+  position: absolute;
+  right: 100px;
+  top:30px;
+}
+.textbox .close:hover{
+  opacity:1;
+}
+.textbox .cancel,
+.textbox .share{
+border-radius:10px;
+border-style:none;
+box-shadow: 1px 1px 10px #E7E2E8;
+font-size: 16px;
+margin-top:45px;
+padding:20px 50px;
+transition: 200ms easy;
+}
+.textbox .cancel{
+  background-color: #E7E2E8;
+  margin-left: 50px;  
+  
+}
+.textbox .cancel:hover{
+background-color:rgba(255, 0, 0, 0.6);
+box-shadow: 1px 1px 20px #787679;
+}
+.textbox .email{
+  border-style: solid;
+  border-top: white;
+  border-left: white;
+  border-right: white;
+  padding-top: 15px;
+  width:550px;
+}
+.textbox .share{
+  background-color: #089BAB;
+  color:white;
+  margin-left: 20px;
+  width:250px;
+}
+.textbox .share:hover{
+  box-shadow: 1px 1px 20px #787679;
+}
+.textbox .text{
+  border-radius: 4px;
+  border-width: 1px;
+  display:block;
+  height:100px;
+  width:550px;
+}
+
+.textbox h1{
+  font-size: 22px;;
+  font-weight: 500px;
+  padding-bottom:20px;
+  padding-top: 80px;
+  text-align:center;
+}
+
+.textbox p{
+  color:#089BAB;
+  font-size:12px;
+  padding-top:25px;
+}
