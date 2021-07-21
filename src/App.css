@@ -24,8 +24,9 @@ html,
   border-style: none;
   opacity: .5;
   position: absolute;
-  right: 100px;
+  right: 30px;
   top:30px;
+  cursor: pointer;
 }
 .textbox .close:hover{
   opacity:1;
@@ -42,8 +43,8 @@ transition: 200ms easy;
 }
 .textbox .cancel{
   background-color: #E7E2E8;
-  margin-left: 50px;  
-  
+  margin-left: 50px;
+
 }
 .textbox .cancel:hover{
 background-color:rgba(255, 0, 0, 0.6);
@@ -56,6 +57,7 @@ box-shadow: 1px 1px 20px #787679;
   border-right: white;
   padding-top: 15px;
   width:550px;
+  outline: none;
 }
 .textbox .share{
   background-color: #089BAB;
@@ -72,11 +74,14 @@ box-shadow: 1px 1px 20px #787679;
   display:block;
   height:100px;
   width:550px;
+  padding: 10px;
+  outline: none;
+  resize: none;
 }
 
 .textbox h1{
   font-size: 22px;;
-  font-weight: 500px;
+  font-weight: 500;
   padding-bottom:20px;
   padding-top: 80px;
   text-align:center;

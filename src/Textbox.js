@@ -15,9 +15,9 @@ export default function Textbox(){
             <button className="close" onClick={closeBox}>x</button>
             <h1>Primary Report 2021</h1>
             <p>Enter email addresses seperated by coma</p>
-            <input type="email" className="email" value="John.doe@pharmacy.net"></input>
+            <input autoFocus={true} type="email" className="email" placeholder="John.doe@pharmacy.net"/>
             <p>Add a note</p>
-            <input type="text" className="text" placeholder="Optional"></input>
+            <textarea className="text" placeholder="Optional"/>
             <button className="cancel" onClick={closeBox}>Cancel</button>
             <button className="share" onClick={handleSubmit}>Share Report</button>
         </div>
